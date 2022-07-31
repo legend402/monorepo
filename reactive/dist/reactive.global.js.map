@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../packages/reactive/src/index.ts", "../../packages/shared/src/index.ts"],
+  "sourcesContent": ["import { isObject } from \"@monorepo/shared\";\r\n\r\nconst Vue = {\r\n  createApp() {\r\n\r\n  }\r\n}\r\n\r\nconsole.log(isObject(Vue));\r\n\r\n\r\nexport default Vue;", "const isVarType = <T>(type: string) => (val: any): val is T => Object.prototype.toString.call(val) === `[object ${type}]`;\r\n\r\nexport const isObject = isVarType<object>('Object');\r\n\r\nexport const isArray = isVarType<[]>('Array');\r\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;;;ACAA,MAAM,YAAY,CAAI,SAAiB,CAAC,QAAuB,OAAO,UAAU,SAAS,KAAK,GAAG,MAAM,WAAW;AAE3G,MAAM,WAAW,UAAkB,QAAQ;AAE3C,MAAM,UAAU,UAAc,OAAO;;;ADF5C,MAAM,MAAM;AAAA,IACV,YAAY;AAAA,IAEZ;AAAA,EACF;AAEA,UAAQ,IAAI,SAAS,GAAG,CAAC;AAGzB,MAAO,cAAQ;",
+  "names": []
+}

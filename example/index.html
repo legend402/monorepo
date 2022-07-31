@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../reactive/dist/reactive.global.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+
+    window.onload = function(){
+      alert("欢迎进入");
+ 
+      window.onbeforeunload = function(){
+        alert("确定关闭");
+        return 000;
+        //因为关闭了之后看不到
+      }
+    }
+  </script>
+</body>
+</html>

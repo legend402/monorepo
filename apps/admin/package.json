@@ -1,0 +1,15 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@monorepo/shared": "workspace:^1.0.0",
+    "@monorepo/ui": "workspace:^1.0.0"
+  }
+}
